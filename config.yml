@@ -26,8 +26,9 @@ outputs:
 
 params:
   homeInfoParams:
-    title: 👋🏼 Here's some of my musings! 💭 Don't take any of this too seriously! 🧐
-    content: 👨🏼‍💻 📖 🐰 🪴 🥾 🧳 ✈️ ☕️ 🍹 🌮 🇳🇴 🏳️‍🌈 ✊🏿 ✊🏾 ✊🏽
+    title: 👋🏼 Hello! Here are some of my musings! 💭
+    content: >
+      👨🏼‍💻 📖 🐰 🪴 🥾 🧳 ✈️ ☕️ 🍹 🌮 🇳🇴 🏳️‍🌈 ✊🏿 ✊🏾 ✊🏽
 
   socialIcons:
     - name: github
@@ -36,9 +37,12 @@ params:
       url: https://twitter.com/ken_odegard
     - name: linkedin
       url: https://www.linkedin.com/in/kenodegard
+    - name: rss
+      url: "index.xml"
 
   showShareButtons: ["twitter", "linkedin", "reddit", "facebook"]
   showReadingTime: true
+  showWordCount: true
   showCodeCopyButtons: true
   showBreadCrumbs: true
   showPostNavLinks: true
