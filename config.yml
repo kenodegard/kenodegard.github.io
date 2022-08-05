@@ -40,7 +40,8 @@ params:
     - name: rss
       url: "index.xml"
 
-  showShareButtons: ["twitter", "linkedin", "reddit", "facebook"]
+  showShareButtons: true
+  shareButtons: ["twitter", "linkedin", "reddit", "facebook"]
   showReadingTime: true
   showWordCount: true
   showCodeCopyButtons: true
