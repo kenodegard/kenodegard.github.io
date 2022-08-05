@@ -1,11 +1,32 @@
 baseURL: https://kenodegard.github.io
 languageCode: en-us
-title: Dev Thoughts
+title: Ken Thinks
+paginate: 5
 theme: PaperMod
+
+enableEmoji: true
+
+menu:
+  main:
+    - name: Archive
+      url: archive
+      weight: 5
+    - name: Search
+      url: search
+      weight: 10
+    - name: Tags
+      url: tags
+      weight: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
 
 params:
   homeInfoParams:
-    title: 👋🏼 Here's some of Ken's musings! Don't take any of this too seriously! 💭
+    title: 👋🏼 Here's some of my musings! 💭 Don't take any of this too seriously! 🧐
     content: 👨🏼‍💻 📖 🐰 🪴 🥾 🧳 ✈️ ☕️ 🍹 🌮 🇳🇴 🏳️‍🌈 ✊🏿 ✊🏾 ✊🏽
 
   socialIcons:
@@ -16,6 +37,8 @@ params:
     - name: linkedin
       url: https://www.linkedin.com/in/kenodegard
 
-  showShareButtons: true
+  showShareButtons: ["twitter", "linkedin", "reddit", "facebook"]
   showReadingTime: true
   showCodeCopyButtons: true
+  showBreadCrumbs: true
+  showPostNavLinks: true
