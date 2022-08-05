@@ -15,3 +15,7 @@ params:
       url: https://twitter.com/ken_odegard
     - name: linkedin
       url: https://www.linkedin.com/in/kenodegard
+
+  showShareButtons: true
+  showReadingTime: true
+  showCodeCopyButtons: true
