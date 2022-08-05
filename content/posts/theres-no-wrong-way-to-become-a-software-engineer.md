@@ -1,6 +1,7 @@
 ---
 title: "There's No Wrong Way to Become a Software Engineer"
 date: 2022-08-03
+tags: ["learning", "academia", "bootcamps", "tutorials", "hacker"]
 draft: false
 ---
 
