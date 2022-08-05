@@ -1,0 +1,17 @@
+baseURL: https://kenodegard.github.io
+languageCode: en-us
+title: Dev Thoughts
+theme: PaperMod
+
+params:
+  homeInfoParams:
+    title: 👋🏼 Here's some of Ken's musings! Don't take any of this too seriously! 💭
+    content: 👨🏼‍💻 📖 🐰 🪴 🥾 🧳 ✈️ ☕️ 🍹 🌮 🇳🇴 🏳️‍🌈 ✊🏿 ✊🏾 ✊🏽
+
+  socialIcons:
+    - name: github
+      url: https://github.com/kenodegard
+    - name: twitter
+      url: https://twitter.com/ken_odegard
+    - name: linkedin
+      url: https://www.linkedin.com/in/kenodegard
